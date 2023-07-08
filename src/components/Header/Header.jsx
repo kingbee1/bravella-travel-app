@@ -14,20 +14,21 @@ const Header = () => {
           <Typography variant="h5" className={classes.title}>
             Bravella
           </Typography>
-          <Box display="flex">
 
+          <Box display="flex">
+            
           <Typography variant="h6" className={classes.title}>
             Explore New Place
           </Typography>
 
-          {/* <Autocomplete>
+          {/* <Autocomplete> */}
             <div className={classes.search}>
                 <div className={classes.searchIcon}>
                     <SearchIcon />
                 </div>
-                <InputBase placeholder="search..." classes={{ root: classes.inputRoot, input: classes.inputInput }} />
+                <InputBase placeholder="Search..." classes={{ root: classes.inputRoot, input: classes.inputInput }} />
             </div>
-          </Autocomplete> */}
+          {/* </Autocomplete> */}
 
           </Box>
 
